@@ -1,0 +1,72 @@
+<html>
+    <head>
+    <title>
+        Online Course Enrollment
+    </title>
+    <script src="script/OnlineCourse.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="heading">
+        <h1>Online Course Enrollment</h1>
+    </div>
+    <div id="topMain">
+        <button onclick="NewUser()">New User</button>
+        <button onclick="ExcistingUser()">Excisting User</button>
+    </div>
+    <div id="details">
+        <label>User Name:</label>
+        <input type="text" id="uName">
+        <br>
+        <label>User Age:</label>
+        <input type="number" id="uAge">
+        <br>
+        <label>User Mobile No</label>
+        <input type="number" id="uMobileNo">
+        <br>
+        <button onclick="AddUser()">Login</button>
+        <label id="detailsLabel" style=" color:red;visibility: hidden;"></label>
+    </div>
+
+    <div id="userLogin">
+        <label>Enter userId</label>
+        <input type="text" id="enteredId">
+        <br>
+        <button onclick="CheckId()">Login</button>
+    </div>
+
+    <div id="option">
+        <button id="acbutton"onclick="AvaliableCourses()">Available Courses</button>
+        <br>
+        <br>
+        <button id="ecbutton" onclick="EnrolledCourses()">Enrolled Courses</button>
+        <br><br>
+        <button onclick="TotalDays()">Total Days</button>
+        <button onclick="MainMenu()">Main Menu</button>
+    </div>
+    <div id="enrollDiv">
+        <label id="ecl"></label>
+        <button onclick="Options()">Back</button>
+    </div>
+    <div id="availableCourses">
+        <label>Available Couses:</label>
+        <select id="course">
+            <option value="C#">C#</option>
+            <option value="Html">Html</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="CSS">CSS</option>
+            <option value="TypeScript">TypeScript</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <br>
+        <label>Days required to complete course:</label>
+        <input type="number" id="requiredDays">
+        <br>
+        <br>
+        <button onclick="Enroll()">Enroll</button>
+    </div>
+    <br>
+</body>
+</html>

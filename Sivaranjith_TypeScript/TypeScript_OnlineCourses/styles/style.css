@@ -1,0 +1,83 @@
+h1
+{
+font-family: calibri;
+font-style: italic;
+font-weight: bold;
+color: rgb(93, 93, 247);
+}
+#topMain
+{
+    display: block;
+}
+#details
+{
+    display: none;
+    
+}
+#availableCourses
+{
+    display: none;
+}
+#option
+{
+    display: none;
+}
+#userLogin,#enrollDiv
+{
+    display: none;
+}
+body{
+    background-color: rgb(221, 248, 248);
+    font-family: calibri;
+}
+#uName,#uAge,#uMobileNo,#enteredId,select,#requiredDays
+{
+ width:200px;
+ height: 35px;
+ border-radius: 8px;
+ font-family: calibri;
+ background-color: rgb(227, 235, 235);
+ color: black;
+ font-size: 18px;
+ 
+}
+#uAge
+{
+    margin-left: 40px;
+
+}
+#uName
+{
+    margin-left: 28px;
+}
+button{
+    margin-top: 20px;
+    width: 100px;
+    height: 37px;
+    background-color: rgb(0, 255, 149);
+    border-radius: 6px;
+    font-family: calibri;
+    margin-left: 80px;
+}
+#acbutton,#ecbutton
+{
+    width: 150px;
+    height: 35px;
+    background-color: rgb(21, 92, 62);
+    border-radius: 6px;
+    font-family: calibri;
+    margin-left: 300px;
+    color: cornsilk;
+}
+#acbutton:hover{
+    background-color: darkgray;
+    color: black;
+}
+#ecbutton:hover{
+    background-color: darkgray;
+    color: black;
+}
+button:hover{
+    background-color: cadetblue;
+    color:cornsilk;
+}
